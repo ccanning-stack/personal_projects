@@ -1,0 +1,119 @@
+body {
+    
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: cornflowerblue;
+
+}
+    
+    nav {
+
+    background-color: white ;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+    position: fixed;
+    z-index: 1;
+    top:0;
+
+
+}
+
+nav li {
+    margin: 10px 70px;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+
+nav li a {
+
+    text-decoration: none;
+    color: darkblue;
+}
+
+h1 {
+
+    text-align: center;
+    margin: 30px auto;
+    color: wheat;
+    font-size: 50px;
+    padding-top: 50px;
+
+
+}
+
+#main_photo {
+
+    margin: 30px auto;
+    display: block;
+    max-height: 250px;
+    border-radius: 80%;
+    position: relative;
+    right: 180px;
+
+}
+
+header p {
+
+    text-align: left;
+    max-width: 300px;
+    display: block;
+    margin: 0 auto;
+    color: white;
+    position: relative;
+    bottom: 250px;
+    left: 80px;
+    
+}
+
+.topic {
+
+    margin: 50px 100px;
+    display: block;
+    text-align: left;
+}
+
+.topic h2{
+
+    color: white;
+    font-weight: 100;
+    filter: drop-shadow(3px 3px 3px blueviolet);
+}
+
+h2 {
+
+    font-size: 40px;
+
+}
+
+.welcome_section {
+
+position: relative;
+top: 115px;
+
+}
+
+span {
+
+    color: white;
+    font-size: 20px;
+}
+
+.picture_section img {
+
+    padding: 50px;
+    max-height: 700px;
+    max-width: 700px;
+    clear: right;
+}
+
+.picture_section figcaption {
+
+
+    color: white;
+    font-size: 20px;
+   clear: none;
+}
